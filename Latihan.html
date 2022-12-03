@@ -1,0 +1,40 @@
+<html>
+<head>
+   <script type="text/javascript">
+    function total1(numberA,numberB)
+    {
+    return numberA + numberB
+    }
+    function total2(numberA,numberB)
+    {
+    return numberA - numberB
+    }
+    function total3(numberA,numberB)
+    {
+    return numberA * numberB
+    }
+    function total4(numberA,numberB)
+    {
+    return numberA / numberB
+    }
+   </script>
+</head>
+<body>
+<h1>nilai A = 8</h1>
+<h1>nilai B = 10</h1>
+    <form>
+        <input type="button"
+        onclick="alert('8+10='+total1(8,10))"
+        value="operasi tambah">
+        <input type="button"
+        onclick="alert('8-10='+total2(8,10))"
+        value="operasi kurang">
+        <input type="button"
+        onclick="alert('8*10='+total3(8,10))"
+        value="operasi kali">
+        <input type="button"
+        onclick="alert('8/10='+total4(8,10))"
+        value="operasi bagi">
+    </form>
+</body>
+</html>
